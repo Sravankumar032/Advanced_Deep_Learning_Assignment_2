@@ -1,8 +1,6 @@
-# GAN vs WGAN vs SNGAN on MNIST (28×28)
-
 **Course / Assignment:** Advanced Deep Learning/ Assignment 2 <br>
-**Name:** Sravankumar Reddy G  **Email:** 2023ad05024@wilp.bits-pilani.ac.in <br>
-**Name:** ADITYA GUPTA  **Email:** 2023ac05742@wilp.bits-pilani.ac.in
+*Name:* Sravankumar Reddy G     *Email:* 2023ad05024@wilp.bits-pilani.ac.in <br>
+*Name:* ADITYA GUPTA            *Email:* 2023ac05742@wilp.bits-pilani.ac.in
 ---
 
 ## 1. Objective
@@ -83,7 +81,6 @@ Relative Path: runs/sngan/samples/epoch_050.png
 
 ## 4. Training Curves & Dynamics
 
-Insert the auto‑generated loss plots for each model:
 
 **GAN losses**
 
