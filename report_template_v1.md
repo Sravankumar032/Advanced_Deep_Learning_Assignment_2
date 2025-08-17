@@ -34,10 +34,18 @@ python train_gans_mnist.py --model sngan --epochs 50 --hinge
 ```
 
 **Outputs** (relative to repo root):
-
-- `runs/<model>/samples/epoch_XXX.png`
-- `runs/<model>/plots/losses.png`
-- `runs/<model>/logs.json`
+**GAN**
+- `runs/gan/samples/epoch_050.png`
+- `runs/gan/plots/losses.png`
+- `runs/gan/logs.json`
+**WGAN**
+- `runs/wgan/samples/epoch_050.png`
+- `runs/wgan/plots/losses.png`
+- `runs/wgan/logs.json`
+**SGAN**
+- `runs/sgan/samples/epoch_050.png`
+- `runs/sgan/plots/losses.png`
+- `runs/sgan/logs.json`
 
 ---
 
@@ -46,12 +54,18 @@ python train_gans_mnist.py --model sngan --epochs 50 --hinge
 > Replace `epoch_050.png` with the best epoch you want to showcase (e.g., 040, 060). Keep the same relative paths.
 
 **GAN**
+runs/gan/samples/epoch_050.png
+
 <img width="194" height="194" alt="GAN_epoch_050" src="https://github.com/user-attachments/assets/2f210765-c3fc-4102-a939-208495e74a5e" />
 
 **WGAN**
+runs/wgan/samples/epoch_050.png
+
 <img width="194" height="194" alt="WGAN_epoch_050" src="https://github.com/user-attachments/assets/ae63728d-6076-45fb-80d1-c924d093b1d6" />
 
 **SNGAN**
+runs/sgan/samples/epoch_050.png
+
 <img width="194" height="194" alt="SNGAN_epoch_050" src="https://github.com/user-attachments/assets/ec694d19-32a3-4fd1-9d00-616f71a29a98" />
 
 **Observations**
@@ -68,9 +82,18 @@ Insert the auto‑generated loss plots for each model:
 
 **GAN losses**
 
+<img width="640" height="480" alt="GAN_losses" src="https://github.com/user-attachments/assets/16151b6a-263b-41be-9493-599022ae7641" />
+
+
 **WGAN critic/generator trends**
 
+<img width="640" height="480" alt="WGAN_losses" src="https://github.com/user-attachments/assets/a5d54ea1-9d12-4d17-b86a-a453ca8852d2" />
+
+
 **SNGAN (hinge) trends**
+
+<img width="640" height="480" alt="SNGAN_losses" src="https://github.com/user-attachments/assets/51633f1b-8c9d-45db-9125-e2b4cb65c9fb" />
+
 
 **Commentary**
 
@@ -111,7 +134,7 @@ If you computed any simple diagnostics (e.g., diversity via MS‑SSIM on generat
 ## 8. Reproducibility
 
 - **Random seeds:** Set within `train_gans_mnist.py` for fixed‑noise evaluation. Results can still vary slightly across runs.
-- **Hardware:** <your GPU/CPU here>
+- **Hardware:** 2-Core, 8GM RAM nd 32GB Storage
 - **Runtime:** ~50+ epochs per model; WGAN may take longer due to multiple critic steps.
 
 ---
