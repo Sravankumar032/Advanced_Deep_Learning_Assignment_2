@@ -1,20 +1,13 @@
 # GAN vs WGAN vs SNGAN on MNIST (28×28)
 
 **Course / Assignment:** Advanced Deep Learning/ Assignment 2 <br>
-**Name:** Sravankumar Reddy G  **Email:** 2023ad05024@wilp.bits-pilani.ac.in
+**Name:** Sravankumar Reddy G  **Email:** 2023ad05024@wilp.bits-pilani.ac.in <br>
 **Name:** ADITYA GUPTA  **Email:** 2023ac05742@wilp.bits-pilani.ac.in
 ---
 
 ## 1. Objective
 
-Implement and compare **GAN**, **WGAN**, and **SNGAN** on MNIST. Train each for **50+ epochs** and compare **training dynamics** and **generated image quality**.
-
-**Rubric mapping**
-
-- Correct implementation (GAN/WGAN/SNGAN): 2 + 2 + 2
-- Quality of generated samples: 1
-- Visualizations & analysis: 1.5
-- Report clarity & depth: 1.5
+Implement and compare **GAN**, **WGAN**, and **SNGAN** on MNIST. Train each for **50 epochs** and compare **training dynamics** and **generated image quality**.
 
 ---
 
@@ -53,10 +46,13 @@ python train_gans_mnist.py --model sngan --epochs 50 --hinge
 > Replace `epoch_050.png` with the best epoch you want to showcase (e.g., 040, 060). Keep the same relative paths.
 
 **GAN**
+<img width="194" height="194" alt="GAN_epoch_050" src="https://github.com/user-attachments/assets/2f210765-c3fc-4102-a939-208495e74a5e" />
 
 **WGAN**
+<img width="194" height="194" alt="WGAN_epoch_050" src="https://github.com/user-attachments/assets/ae63728d-6076-45fb-80d1-c924d093b1d6" />
 
 **SNGAN**
+<img width="194" height="194" alt="SNGAN_epoch_050" src="https://github.com/user-attachments/assets/ec694d19-32a3-4fd1-9d00-616f71a29a98" />
 
 **Observations**
 
