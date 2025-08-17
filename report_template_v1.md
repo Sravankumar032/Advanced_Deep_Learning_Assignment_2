@@ -124,9 +124,9 @@ If you computed any simple diagnostics (e.g., diversity via MS‑SSIM on generat
 
 ---
 
-## 7. Conclusions (Tie‑back to Rubric)
+## 7. Conclusions
 
-- **Correct implementations:** All three models follow canonical setups (losses, optimizers, and constraints) and run for ≥50 epochs.
+- **Implementations:** All three models follow canonical setups (losses, optimizers, and constraints) and run for 50 epochs.
 - **Generated quality:** **SNGAN ≥ WGAN > GAN** on MNIST, by visual sharpness and stability.
 - **Visualizations & analysis:** Included per‑model loss curves and sample grids with commentary on stability, oscillation, and convergence.
 - **Clarity & depth:** This report explains objectives, setup, qualitative results, training dynamics, and theory‑backed reasons for observed differences.
