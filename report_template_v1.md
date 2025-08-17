@@ -1,6 +1,6 @@
 # GAN vs WGAN vs SNGAN on MNIST (28×28)
 
-**Course / Assignment:** Advanced Deep Learning/ Assignment 2
+**Course / Assignment:** Advanced Deep Learning/ Assignment 2 <br>
 **Name:** Sravankumar Reddy G  **Email:** 2023ad05024@wilp.bits-pilani.ac.in
 **Name:** ADITYA GUPTA  **Email:** 2023ac05742@wilp.bits-pilani.ac.in
 ---
