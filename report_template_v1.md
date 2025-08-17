@@ -33,38 +33,43 @@ python train_gans_mnist.py --model wgan  --epochs 50 --critic-iters 5 --clip 0.0
 python train_gans_mnist.py --model sngan --epochs 50 --hinge
 ```
 
-**Outputs** (relative to repo root):
+**Outputs** (relative to repo root): 
+
 **GAN**
+
 - `runs/gan/samples/epoch_050.png`
 - `runs/gan/plots/losses.png`
 - `runs/gan/logs.json`
+  
 **WGAN**
 - `runs/wgan/samples/epoch_050.png`
 - `runs/wgan/plots/losses.png`
 - `runs/wgan/logs.json`
+  
 **SGAN**
 - `runs/sgan/samples/epoch_050.png`
 - `runs/sgan/plots/losses.png`
 - `runs/sgan/logs.json`
-
 ---
 
 ## 3. Qualitative Results (Sample Grids)
 
-> Replace `epoch_050.png` with the best epoch you want to showcase (e.g., 040, 060). Keep the same relative paths.
 
 **GAN**
-runs/gan/samples/epoch_050.png
+
+Relative Path: runs/gan/samples/epoch_050.png
 
 <img width="194" height="194" alt="GAN_epoch_050" src="https://github.com/user-attachments/assets/2f210765-c3fc-4102-a939-208495e74a5e" />
 
 **WGAN**
-runs/wgan/samples/epoch_050.png
+
+Relative Path: runs/wgan/samples/epoch_050.png
 
 <img width="194" height="194" alt="WGAN_epoch_050" src="https://github.com/user-attachments/assets/ae63728d-6076-45fb-80d1-c924d093b1d6" />
 
 **SNGAN**
-runs/sgan/samples/epoch_050.png
+
+Relative Path: runs/sgan/samples/epoch_050.png
 
 <img width="194" height="194" alt="SNGAN_epoch_050" src="https://github.com/user-attachments/assets/ec694d19-32a3-4fd1-9d00-616f71a29a98" />
 
