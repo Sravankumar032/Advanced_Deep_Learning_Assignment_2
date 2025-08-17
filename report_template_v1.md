@@ -46,10 +46,10 @@ python train_gans_mnist.py --model sngan --epochs 50 --hinge
 - `runs/wgan/plots/losses.png`
 - `runs/wgan/logs.json`
   
-**SGAN**
-- `runs/sgan/samples/epoch_050.png`
-- `runs/sgan/plots/losses.png`
-- `runs/sgan/logs.json`
+**SNGAN**
+- `runs/sngan/samples/epoch_050.png`
+- `runs/sngan/plots/losses.png`
+- `runs/sngan/logs.json`
 ---
 
 ## 3. Qualitative Results (Sample Grids)
@@ -69,7 +69,7 @@ Relative Path: runs/wgan/samples/epoch_050.png
 
 **SNGAN**
 
-Relative Path: runs/sgan/samples/epoch_050.png
+Relative Path: runs/sngan/samples/epoch_050.png
 
 <img width="194" height="194" alt="SNGAN_epoch_050" src="https://github.com/user-attachments/assets/ec694d19-32a3-4fd1-9d00-616f71a29a98" />
 
@@ -167,5 +167,3 @@ runs/gan/logs.json
 runs/wgan/logs.json
 runs/sngan/logs.json
 ```
-
-> If your best epochs differ, update the three `epoch_050.png` references.
